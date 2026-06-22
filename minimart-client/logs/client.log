@@ -1,0 +1,46 @@
+2026-06-22 21:20:39 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Connected to server at localhost:9999
+2026-06-22 21:20:39 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Connected to Mini Mart Server
+2026-06-22 21:20:49 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-22 21:20:49 [Thread-3] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-22 21:20:49 [Thread-3] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-22 21:20:49 [Thread-3] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:20:49 [Thread-3] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-22 21:20:49 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-22 21:20:49 [Thread-4] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:20:49 [Thread-4] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:20:49 [Thread-4] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 394
+2026-06-22 21:20:55 [Thread-5] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:20:55 [Thread-5] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:20:55 [Thread-5] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 16211
+2026-06-22 21:20:56 [Thread-6] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:20:56 [Thread-6] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:20:57 [Thread-6] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-22 21:20:58 [Thread-7] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:20:58 [Thread-7] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:20:58 [Thread-7] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1161
+2026-06-22 21:21:01 [Thread-8] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:21:01 [Thread-8] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:21:01 [Thread-8] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 780
+2026-06-22 21:21:04 [Thread-9] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:21:04 [Thread-9] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:21:04 [Thread-9] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 2110
+2026-06-22 21:21:18 [Thread-10] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=68dbfe94-e841-42a2-99c0-ccd16ba1d2b8
+2026-06-22 21:21:18 [Thread-10] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:21:18 [Thread-10] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-22 21:21:39 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: nhanvien1
+2026-06-22 21:21:39 [Thread-11] INFO  c.m.client.ui.LoginController - Background login task started for user: nhanvien1
+2026-06-22 21:21:39 [Thread-11] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-22 21:21:39 [Thread-11] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:21:39 [Thread-11] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 300
+2026-06-22 21:21:39 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: nhanvien1
+2026-06-22 21:21:39 [Thread-12] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=88aecedf-f408-4ce3-8a0e-30b77f8af64c
+2026-06-22 21:21:39 [Thread-12] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:21:39 [Thread-12] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 16211
+2026-06-22 21:21:39 [Thread-12] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=88aecedf-f408-4ce3-8a0e-30b77f8af64c
+2026-06-22 21:21:39 [Thread-12] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:21:39 [Thread-12] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-22 21:22:08 [Thread-13] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=88aecedf-f408-4ce3-8a0e-30b77f8af64c
+2026-06-22 21:22:08 [Thread-13] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-22 21:22:08 [Thread-13] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-22 21:22:11 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Disconnected from server
+2026-06-22 21:22:11 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Client application stopped

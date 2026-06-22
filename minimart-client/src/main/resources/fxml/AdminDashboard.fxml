@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.minimart.client.ui.AdminDashboardController"
+            styleClass="main-root" prefWidth="1280" prefHeight="800">
+
+    <!-- ── LEFT SIDEBAR ─────────────────────────────────────── -->
+    <left>
+        <VBox styleClass="sidebar" spacing="0">
+
+            <!-- Brand -->
+            <Label text="🛒 MINI MART" styleClass="sidebar-logo"/>
+            <Label text="Hệ thống quản lý" styleClass="sidebar-logo-sub"/>
+            <Separator/>
+
+            <!-- Navigation -->
+            <Label text="TỔNG QUAN" styleClass="sidebar-section-header"/>
+            <Button fx:id="btnDashboard" text="📊  Bảng điều khiển"
+                    styleClass="nav-button,nav-button-active" onAction="#showDashboard" maxWidth="Infinity"/>
+
+            <Label text="QUẢN LÝ" styleClass="sidebar-section-header"/>
+            <Button fx:id="btnProducts" text="📦  Sản phẩm"
+                    styleClass="nav-button" onAction="#showProducts" maxWidth="Infinity"/>
+            <Button fx:id="btnCustomers" text="👥  Khách hàng"
+                    styleClass="nav-button" onAction="#showCustomers" maxWidth="Infinity"/>
+            <Button fx:id="btnOrders" text="🧾  Đơn hàng"
+                    styleClass="nav-button" onAction="#showOrders" maxWidth="Infinity"/>
+            <Button fx:id="btnUsers" text="🔑  Tài khoản"
+                    styleClass="nav-button" onAction="#showUsers" maxWidth="Infinity"/>
+
+            <Label text="HỆ THỐNG" styleClass="sidebar-section-header"/>
+            <Button fx:id="btnLogs" text="📋  Nhật ký"
+                    styleClass="nav-button" onAction="#showLogs" maxWidth="Infinity"/>
+
+            <!-- Spacer -->
+            <Region VBox.vgrow="ALWAYS"/>
+
+            <!-- User info + logout -->
+            <Separator/>
+            <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 14 16;">
+                <Label text="👤" style="-fx-font-size:18px;"/>
+                <VBox spacing="2">
+                    <Label fx:id="lblCurrentUser" text="Admin" style="-fx-text-fill:#e8eaf6; -fx-font-weight:bold; -fx-font-size:13px;"/>
+                    <Label fx:id="lblCurrentRole" text="ADMIN"   style="-fx-text-fill:#6c63ff; -fx-font-size:11px;"/>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Button text="⏻" onAction="#handleLogout" styleClass="btn-danger"
+                        style="-fx-padding: 5 10; -fx-font-size:16px;">
+                    <tooltip>
+                        <Tooltip text="Đăng xuất"/>
+                    </tooltip>
+                </Button>
+            </HBox>
+        </VBox>
+    </left>
+
+    <!-- ── MAIN CONTENT ─────────────────────────────────────── -->
+    <center>
+        <VBox styleClass="content-area" spacing="0">
+
+            <!-- Top bar -->
+            <HBox styleClass="topbar" alignment="CENTER_LEFT" spacing="12">
+                <Label fx:id="lblPageTitle" text="Bảng điều khiển" styleClass="topbar-title"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label fx:id="lblUserChip" text="admin  ADMIN" styleClass="user-chip"/>
+                <ProgressIndicator fx:id="mainSpinner" maxWidth="24" maxHeight="24"
+                                   visible="false" style="-fx-progress-color:#6c63ff;"/>
+            </HBox>
+
+            <!-- Scrollable content container -->
+            <ScrollPane fx:id="scrollContent" fitToWidth="true" VBox.vgrow="ALWAYS"
+                        style="-fx-background-color: transparent; -fx-background: transparent;">
+                <StackPane fx:id="contentStack" style="-fx-padding: 24;"/>
+            </ScrollPane>
+
+        </VBox>
+    </center>
+
+</BorderPane>

@@ -1,0 +1,15 @@
+com\minimart\common\constants\Roles.class
+com\minimart\common\dto\Request.class
+com\minimart\common\dto\DashboardData$LowStockItem.class
+com\minimart\common\model\OrderItem.class
+com\minimart\common\model\User.class
+com\minimart\common\dto\OrderRequest.class
+com\minimart\common\dto\DashboardData.class
+com\minimart\common\dto\LoginResponse.class
+com\minimart\common\dto\ProductListWrapper.class
+com\minimart\common\model\SystemLog.class
+com\minimart\common\model\Customer.class
+com\minimart\common\model\Product.class
+com\minimart\common\model\Order.class
+com\minimart\common\dto\Response.class
+com\minimart\common\constants\Actions.class

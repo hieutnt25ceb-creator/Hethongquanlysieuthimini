@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.minimart.client.ui.POSController"
+            styleClass="main-root" prefWidth="1280" prefHeight="800">
+
+    <!-- ── TOP BAR ──────────────────────────────────────────── -->
+    <top>
+        <HBox styleClass="topbar" alignment="CENTER_LEFT" spacing="14">
+            <Label text="🛒  MINI MART — Điểm bán hàng (POS)" styleClass="topbar-title"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Label fx:id="lblCashier" text="" styleClass="user-chip"/>
+            <Button text="⏻  Đăng xuất" onAction="#handleLogout" styleClass="btn-danger"
+                    style="-fx-padding: 7 14;"/>
+        </HBox>
+    </top>
+
+    <!-- ── CENTER: product search + cart ────────────────────── -->
+    <center>
+        <HBox spacing="16" style="-fx-padding: 20;">
+
+            <!-- Left: product search & list -->
+            <VBox spacing="12" HBox.hgrow="ALWAYS">
+
+                <!-- Search bar -->
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <TextField fx:id="txtSearch"
+                               promptText="🔍  Tìm sản phẩm theo tên hoặc mã..."
+                               styleClass="search-field" HBox.hgrow="ALWAYS"
+                               onKeyReleased="#handleProductSearch"/>
+                    <Button text="Tìm" onAction="#handleProductSearch" styleClass="btn-secondary"/>
+                </HBox>
+
+                <!-- Product grid -->
+                <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS"
+                            style="-fx-background-color: transparent; -fx-background: transparent;">
+                    <FlowPane fx:id="productGrid" hgap="12" vgap="12"
+                              style="-fx-background-color: transparent; -fx-padding: 4;"/>
+                </ScrollPane>
+            </VBox>
+
+            <!-- Right: cart panel -->
+            <VBox styleClass="pos-cart-panel" spacing="12" prefWidth="380" minWidth="360">
+
+                <!-- Cart title + customer select -->
+                <Label text="🧾  Giỏ hàng" style="-fx-font-size:16px; -fx-font-weight:bold; -fx-text-fill:#e8eaf6;"/>
+                <Separator/>
+
+                <HBox spacing="8" alignment="CENTER_LEFT">
+                    <Label text="Khách hàng:" style="-fx-text-fill:#9096b0; -fx-font-size:12px;"/>
+                    <ComboBox fx:id="cmbCustomer" promptText="Khách vãng lai"
+                              styleClass="combo-box" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                </HBox>
+
+                <!-- Cart items list -->
+                <TableView fx:id="cartTable" VBox.vgrow="ALWAYS" minHeight="300">
+                    <columns>
+                        <TableColumn fx:id="colCartName"  text="Sản phẩm" prefWidth="140"/>
+                        <TableColumn fx:id="colCartQty"   text="SL"       prefWidth="50"/>
+                        <TableColumn fx:id="colCartPrice" text="Đơn giá"  prefWidth="90"/>
+                        <TableColumn fx:id="colCartTotal" text="Thành tiền" prefWidth="90"/>
+                        <TableColumn fx:id="colCartDel"   text=""         prefWidth="32"/>
+                    </columns>
+                </TableView>
+
+                <Separator/>
+
+                <!-- Total -->
+                <HBox alignment="CENTER_LEFT" spacing="10">
+                    <VBox spacing="2">
+                        <Label text="TỔNG CỘNG" styleClass="pos-total-caption"/>
+                        <Label fx:id="lblTotal" text="0 ₫" styleClass="pos-total-label"/>
+                    </VBox>
+                    <Region HBox.hgrow="ALWAYS"/>
+                    <VBox spacing="2" alignment="CENTER_RIGHT">
+                        <Label text="Số mặt hàng" styleClass="pos-total-caption"/>
+                        <Label fx:id="lblItemCount" text="0" style="-fx-text-fill:#9096b0; -fx-font-size:15px; -fx-font-weight:bold;"/>
+                    </VBox>
+                </HBox>
+
+                <!-- Note -->
+                <TextField fx:id="txtNote" promptText="Ghi chú đơn hàng (tùy chọn)..."/>
+
+                <!-- Action buttons -->
+                <HBox spacing="10">
+                    <Button text="🗑  Xóa giỏ" onAction="#clearCart" styleClass="btn-danger" maxWidth="Infinity" HBox.hgrow="ALWAYS"/>
+                    <Button fx:id="btnCheckout" text="✅  THANH TOÁN" onAction="#handleCheckout"
+                            styleClass="btn-success" maxWidth="Infinity" HBox.hgrow="ALWAYS"/>
+                </HBox>
+
+                <ProgressIndicator fx:id="checkoutSpinner" maxWidth="30" maxHeight="30"
+                                   visible="false"
+                                   style="-fx-progress-color:#2ed573;"/>
+                <Label fx:id="lblCheckoutStatus" text="" styleClass="status-success"/>
+
+            </VBox>
+        </HBox>
+    </center>
+
+</BorderPane>

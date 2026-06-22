@@ -1,0 +1,643 @@
+2026-06-23 00:00:07 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 00:00:07 [Thread-5] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 00:00:07 [Thread-5] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:00:07 [Thread-5] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:00:07 [Thread-5] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-23 00:00:07 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-23 00:00:07 [Thread-6] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:00:07 [Thread-6] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:00:07 [Thread-6] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 418
+2026-06-23 00:00:14 [Thread-7] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:00:14 [Thread-7] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:00:14 [Thread-7] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 18152
+2026-06-23 00:00:51 [Thread-12] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:00:51 [Thread-12] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:00:51 [Thread-12] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 509
+2026-06-23 00:01:08 [Thread-17] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:01:08 [Thread-17] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:01:08 [Thread-17] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 509
+2026-06-23 00:01:26 [Thread-22] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:01:26 [Thread-22] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:01:26 [Thread-22] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 509
+2026-06-23 00:02:04 [Thread-27] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:02:04 [Thread-27] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:02:04 [Thread-27] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 540
+2026-06-23 00:02:38 [Thread-32] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:02:38 [Thread-32] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:02:38 [Thread-32] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 558
+2026-06-23 00:03:10 [Thread-37] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:03:10 [Thread-37] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:03:10 [Thread-37] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 500
+2026-06-23 00:04:22 [Thread-42] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:04:22 [Thread-42] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:04:22 [Thread-42] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 543
+2026-06-23 00:04:58 [Thread-47] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:04:58 [Thread-47] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:04:58 [Thread-47] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 502
+2026-06-23 00:06:31 [Thread-52] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:06:31 [Thread-52] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:06:31 [Thread-52] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 541
+2026-06-23 00:07:18 [Thread-57] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:07:18 [Thread-57] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:07:18 [Thread-57] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 500
+2026-06-23 00:08:02 [Thread-62] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:08:02 [Thread-62] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:08:02 [Thread-62] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 540
+2026-06-23 00:08:53 [Thread-67] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:08:53 [Thread-67] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:08:53 [Thread-67] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 504
+2026-06-23 00:09:31 [Thread-72] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:09:31 [Thread-72] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:09:31 [Thread-72] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 573
+2026-06-23 00:10:09 [Thread-77] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:09 [Thread-77] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:09 [Thread-77] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 578
+2026-06-23 00:10:21 [Thread-82] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:21 [Thread-82] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:21 [Thread-82] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 573
+2026-06-23 00:10:26 [Thread-87] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:26 [Thread-87] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:26 [Thread-87] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 12734
+2026-06-23 00:10:41 [Thread-88] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:41 [Thread-88] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:41 [Thread-88] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:10:45 [Thread-89] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:45 [Thread-89] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:45 [Thread-89] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 272
+2026-06-23 00:10:46 [Thread-90] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:46 [Thread-90] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:46 [Thread-90] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1401
+2026-06-23 00:10:46 [Thread-91] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:10:46 [Thread-91] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:10:46 [Thread-91] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 19677
+2026-06-23 00:11:54 [Thread-96] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:11:54 [Thread-96] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:11:54 [Thread-96] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 686
+2026-06-23 00:12:27 [Thread-101] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:12:27 [Thread-101] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:12:27 [Thread-101] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 554
+2026-06-23 00:12:59 [Thread-106] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:12:59 [Thread-106] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:12:59 [Thread-106] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 585
+2026-06-23 00:13:36 [Thread-111] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:13:36 [Thread-111] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:13:37 [Thread-111] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 586
+2026-06-23 00:14:18 [Thread-116] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:14:18 [Thread-116] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:14:18 [Thread-116] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 623
+2026-06-23 00:14:56 [Thread-121] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:14:56 [Thread-121] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:14:56 [Thread-121] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 572
+2026-06-23 00:15:44 [Thread-126] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:15:44 [Thread-126] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:15:44 [Thread-126] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 603
+2026-06-23 00:16:32 [Thread-131] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:16:32 [Thread-131] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:16:32 [Thread-131] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 572
+2026-06-23 00:17:10 [Thread-136] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:17:10 [Thread-136] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:17:10 [Thread-136] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 556
+2026-06-23 00:18:47 [Thread-141] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:18:47 [Thread-141] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:18:47 [Thread-141] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 551
+2026-06-23 00:20:52 [Thread-146] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:20:52 [Thread-146] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:20:52 [Thread-146] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 566
+2026-06-23 00:21:54 [Thread-151] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:21:54 [Thread-151] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:21:54 [Thread-151] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 534
+2026-06-23 00:22:22 [Thread-156] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:22:22 [Thread-156] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:22:22 [Thread-156] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 510
+2026-06-23 00:23:05 [Thread-161] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:23:05 [Thread-161] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:23:05 [Thread-161] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 522
+2026-06-23 00:26:42 [Thread-166] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:26:42 [Thread-166] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:26:43 [Thread-166] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 542
+2026-06-23 00:27:39 [Thread-171] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:27:39 [Thread-171] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:27:39 [Thread-171] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 536
+2026-06-23 00:29:04 [Thread-176] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:29:04 [Thread-176] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:29:04 [Thread-176] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 509
+2026-06-23 00:29:09 [Thread-181] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:29:09 [Thread-181] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:29:09 [Thread-181] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 419
+2026-06-23 00:29:54 [Thread-186] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:29:54 [Thread-186] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:29:54 [Thread-186] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 564
+2026-06-23 00:30:23 [Thread-191] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:30:23 [Thread-191] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:30:23 [Thread-191] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 524
+2026-06-23 00:30:54 [Thread-196] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:30:54 [Thread-196] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:30:54 [Thread-196] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 545
+2026-06-23 00:31:20 [Thread-201] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:31:20 [Thread-201] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:31:20 [Thread-201] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 543
+2026-06-23 00:31:45 [Thread-206] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:31:45 [Thread-206] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:31:46 [Thread-206] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 514
+2026-06-23 00:32:23 [Thread-211] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:32:23 [Thread-211] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:32:23 [Thread-211] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 501
+2026-06-23 00:32:35 [Thread-216] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=23963908-af7e-48b6-b3a2-124665040455
+2026-06-23 00:32:35 [Thread-216] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:32:35 [Thread-216] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-23 00:32:44 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: nhanvien1
+2026-06-23 00:32:44 [Thread-217] INFO  c.m.client.ui.LoginController - Background login task started for user: nhanvien1
+2026-06-23 00:32:44 [Thread-217] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:32:44 [Thread-217] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:32:44 [Thread-217] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 300
+2026-06-23 00:32:44 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: nhanvien1
+2026-06-23 00:32:44 [Thread-218] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:32:44 [Thread-218] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:32:44 [Thread-218] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:32:44 [Thread-218] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:32:44 [Thread-218] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:32:44 [Thread-218] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:33:07 [Thread-235] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=CREATE_ORDER, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:07 [Thread-235] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:07 [Thread-235] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 329
+2026-06-23 00:33:12 [Thread-236] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:12 [Thread-236] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:12 [Thread-236] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:33:12 [Thread-236] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:12 [Thread-236] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:12 [Thread-236] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:33:30 [Thread-241] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=CREATE_ORDER, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:30 [Thread-241] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:30 [Thread-241] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 322
+2026-06-23 00:33:32 [Thread-242] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:32 [Thread-242] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:32 [Thread-242] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:33:32 [Thread-242] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:32 [Thread-242] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:32 [Thread-242] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:33:40 [Thread-247] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=69f1cd27-5c7a-401d-95d5-1dd199b36cac
+2026-06-23 00:33:40 [Thread-247] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:40 [Thread-247] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-23 00:33:48 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 00:33:48 [Thread-248] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 00:33:48 [Thread-248] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:33:48 [Thread-248] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:49 [Thread-248] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-23 00:33:49 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-23 00:33:49 [Thread-249] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:33:49 [Thread-249] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:49 [Thread-249] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:33:58 [Thread-250] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:33:58 [Thread-250] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:33:58 [Thread-250] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:34:00 [Thread-255] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:00 [Thread-255] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:00 [Thread-255] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:34:03 [Thread-256] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:03 [Thread-256] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:03 [Thread-256] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 445
+2026-06-23 00:34:13 [Thread-257] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:13 [Thread-257] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:13 [Thread-257] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 452
+2026-06-23 00:34:15 [Thread-258] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:15 [Thread-258] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:15 [Thread-258] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 453
+2026-06-23 00:34:16 [Thread-259] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:16 [Thread-259] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:16 [Thread-259] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:34:25 [Thread-260] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:25 [Thread-260] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:25 [Thread-260] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:34:26 [Thread-261] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:26 [Thread-261] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:26 [Thread-261] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:34:26 [Thread-262] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:26 [Thread-262] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:26 [Thread-262] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:34:27 [Thread-263] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:27 [Thread-263] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:27 [Thread-263] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:34:27 [Thread-264] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:27 [Thread-264] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:27 [Thread-264] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:34:29 [Thread-265] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:29 [Thread-265] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:29 [Thread-265] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:34:29 [Thread-266] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:29 [Thread-266] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:29 [Thread-266] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:34:41 [Thread-271] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:41 [Thread-271] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:41 [Thread-271] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:34:56 [Thread-272] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:56 [Thread-272] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:56 [Thread-272] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:34:56 [Thread-273] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:34:56 [Thread-273] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:34:56 [Thread-273] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:35:34 [Thread-290] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:34 [Thread-290] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:34 [Thread-290] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 558
+2026-06-23 00:35:36 [Thread-295] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:36 [Thread-295] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:36 [Thread-295] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:35:37 [Thread-296] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:37 [Thread-296] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:37 [Thread-296] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:35:37 [Thread-297] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:37 [Thread-297] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:37 [Thread-297] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:35:38 [Thread-298] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:38 [Thread-298] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:38 [Thread-298] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:35:38 [Thread-299] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:38 [Thread-299] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:38 [Thread-299] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:35:38 [Thread-300] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:38 [Thread-300] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:38 [Thread-300] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:35:43 [Thread-301] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:43 [Thread-301] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:43 [Thread-301] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 18912
+2026-06-23 00:35:45 [Thread-302] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=8e89818c-705d-49c8-9ae0-0be088ed6e82
+2026-06-23 00:35:45 [Thread-302] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:35:45 [Thread-302] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:35:50 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Disconnected from server
+2026-06-23 00:35:50 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Client application stopped
+2026-06-23 00:37:46 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Connected to server at localhost:9999
+2026-06-23 00:37:46 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Connected to Mini Mart Server
+2026-06-23 00:37:51 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 00:37:51 [Thread-3] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 00:37:51 [Thread-3] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:37:51 [Thread-3] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:52 [Thread-3] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-23 00:37:52 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-23 00:37:52 [Thread-4] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:37:52 [Thread-4] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:52 [Thread-4] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:37:55 [Thread-5] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:37:55 [Thread-5] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:55 [Thread-5] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:37:57 [Thread-10] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:37:57 [Thread-10] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:57 [Thread-10] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:37:57 [Thread-11] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:37:57 [Thread-11] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:57 [Thread-11] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:37:57 [Thread-12] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:37:57 [Thread-12] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:57 [Thread-12] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:37:58 [Thread-13] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:37:58 [Thread-13] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:37:58 [Thread-13] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:38:28 [Thread-14] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:38:28 [Thread-14] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:38:28 [Thread-14] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 19276
+2026-06-23 00:38:35 [Thread-15] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:38:35 [Thread-15] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:38:35 [Thread-15] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:38:35 [Thread-16] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:38:35 [Thread-16] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:38:35 [Thread-16] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:38:36 [Thread-17] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:38:36 [Thread-17] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:38:36 [Thread-17] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:38:37 [Thread-18] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=e9011afa-3ff0-4719-82f7-14731e4133c9
+2026-06-23 00:38:37 [Thread-18] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:38:37 [Thread-18] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:43:01 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Disconnected from server
+2026-06-23 00:43:01 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Client application stopped
+2026-06-23 00:43:10 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Connected to server at localhost:9999
+2026-06-23 00:43:10 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Connected to Mini Mart Server
+2026-06-23 00:43:17 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 00:43:17 [Thread-3] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 00:43:17 [Thread-3] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:43:17 [Thread-3] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:43:17 [Thread-3] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-23 00:43:17 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-23 00:43:17 [Thread-4] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:43:17 [Thread-4] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:43:17 [Thread-4] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:43:30 [Thread-5] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:43:30 [Thread-5] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:43:30 [Thread-5] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:43:38 [Thread-10] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_PRODUCT, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:43:38 [Thread-10] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:43:38 [Thread-10] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 586
+2026-06-23 00:44:13 [Thread-31] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:13 [Thread-31] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:13 [Thread-31] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:44:18 [Thread-32] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:18 [Thread-32] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:18 [Thread-32] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:44:19 [Thread-33] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:19 [Thread-33] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:19 [Thread-33] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:44:19 [Thread-34] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:19 [Thread-34] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:19 [Thread-34] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:44:19 [Thread-35] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:19 [Thread-35] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:19 [Thread-35] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:44:20 [Thread-36] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:20 [Thread-36] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:20 [Thread-36] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:44:22 [Thread-37] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:22 [Thread-37] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:22 [Thread-37] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:44:28 [Thread-38] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:28 [Thread-38] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:28 [Thread-38] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 800
+2026-06-23 00:44:31 [Thread-39] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:31 [Thread-39] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:31 [Thread-39] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 589
+2026-06-23 00:44:35 [Thread-40] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:35 [Thread-40] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:35 [Thread-40] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 775
+2026-06-23 00:44:37 [Thread-41] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:37 [Thread-41] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:37 [Thread-41] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 584
+2026-06-23 00:44:38 [Thread-42] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:38 [Thread-42] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:38 [Thread-42] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 19835
+2026-06-23 00:44:39 [Thread-43] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:44:39 [Thread-43] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:44:39 [Thread-43] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:45:30 [Thread-48] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=12d04380-bfe1-4315-9cd9-6dffb7784919
+2026-06-23 00:45:30 [Thread-48] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:45:30 [Thread-48] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-23 00:45:51 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Register button clicked for user: memaybeo
+2026-06-23 00:45:51 [Thread-49] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=REGISTER, token=null
+2026-06-23 00:45:51 [Thread-49] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:45:51 [Thread-49] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 180
+2026-06-23 00:45:51 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Registration task succeeded for user: memaybeo
+2026-06-23 00:45:53 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: memaybeo
+2026-06-23 00:45:53 [Thread-50] INFO  c.m.client.ui.LoginController - Background login task started for user: memaybeo
+2026-06-23 00:45:53 [Thread-50] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:45:53 [Thread-50] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:45:53 [Thread-50] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 300
+2026-06-23 00:45:53 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: memaybeo
+2026-06-23 00:45:53 [Thread-51] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=90b5800f-0c4e-41fb-9dbc-f47660fde0eb
+2026-06-23 00:45:53 [Thread-51] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:45:53 [Thread-51] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:45:53 [Thread-51] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=90b5800f-0c4e-41fb-9dbc-f47660fde0eb
+2026-06-23 00:45:53 [Thread-51] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:45:53 [Thread-51] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:46:27 [Thread-56] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=90b5800f-0c4e-41fb-9dbc-f47660fde0eb
+2026-06-23 00:46:27 [Thread-56] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:27 [Thread-56] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-23 00:46:35 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 00:46:35 [Thread-57] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 00:46:35 [Thread-57] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:46:35 [Thread-57] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:35 [Thread-57] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-23 00:46:35 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-23 00:46:35 [Thread-58] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:35 [Thread-58] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:35 [Thread-58] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:46:36 [Thread-59] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:36 [Thread-59] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:36 [Thread-59] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:46:38 [Thread-64] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:38 [Thread-64] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:38 [Thread-64] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:46:38 [Thread-69] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:38 [Thread-69] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:38 [Thread-69] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:46:39 [Thread-70] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:39 [Thread-70] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:39 [Thread-70] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:46:45 [Thread-71] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:45 [Thread-71] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:45 [Thread-71] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 768
+2026-06-23 00:46:56 [Thread-72] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_USER, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:46:56 [Thread-72] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:46:56 [Thread-72] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 228
+2026-06-23 00:47:08 [Thread-73] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:08 [Thread-73] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:08 [Thread-73] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1879
+2026-06-23 00:47:11 [Thread-74] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:11 [Thread-74] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:11 [Thread-74] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:47:12 [Thread-75] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:12 [Thread-75] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:12 [Thread-75] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:47:19 [Thread-80] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:19 [Thread-80] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:19 [Thread-80] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1125
+2026-06-23 00:47:26 [Thread-81] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:26 [Thread-81] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:27 [Thread-81] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 272
+2026-06-23 00:47:28 [Thread-82] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:28 [Thread-82] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:28 [Thread-82] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 272
+2026-06-23 00:47:48 [Thread-83] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:47:48 [Thread-83] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:47:48 [Thread-83] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 271
+2026-06-23 00:48:03 [Thread-84] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:48:03 [Thread-84] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:48:03 [Thread-84] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 271
+2026-06-23 00:49:20 [Thread-85] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:49:20 [Thread-85] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:49:20 [Thread-85] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 258
+2026-06-23 00:49:23 [Thread-86] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:49:23 [Thread-86] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:49:23 [Thread-86] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1870
+2026-06-23 00:49:24 [Thread-87] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDER_DETAIL, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:49:24 [Thread-87] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:49:24 [Thread-87] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 445
+2026-06-23 00:49:27 [Thread-88] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:49:27 [Thread-88] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:49:27 [Thread-88] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 768
+2026-06-23 00:54:21 [Thread-89] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:54:21 [Thread-89] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:54:21 [Thread-89] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 21930
+2026-06-23 00:56:33 [Thread-90] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:33 [Thread-90] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:33 [Thread-90] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 768
+2026-06-23 00:56:34 [Thread-91] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:34 [Thread-91] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:34 [Thread-91] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1870
+2026-06-23 00:56:34 [Thread-92] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:34 [Thread-92] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:34 [Thread-92] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:56:34 [Thread-93] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:34 [Thread-93] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:34 [Thread-93] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1870
+2026-06-23 00:56:35 [Thread-94] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:35 [Thread-94] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:35 [Thread-94] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:56:36 [Thread-95] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:36 [Thread-95] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:36 [Thread-95] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:56:44 [Thread-100] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:44 [Thread-100] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:44 [Thread-100] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:56:48 [Thread-101] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:48 [Thread-101] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:48 [Thread-101] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:56:50 [Thread-106] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:50 [Thread-106] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:50 [Thread-106] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:56:51 [Thread-107] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:51 [Thread-107] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:51 [Thread-107] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1870
+2026-06-23 00:56:52 [Thread-108] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:52 [Thread-108] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:52 [Thread-108] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:56:55 [Thread-109] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=908717ef-554b-415a-9f63-06ef98a45a3b
+2026-06-23 00:56:55 [Thread-109] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:56:55 [Thread-109] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-23 00:58:13 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 00:58:13 [Thread-110] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 00:58:13 [Thread-110] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGIN, token=null
+2026-06-23 00:58:13 [Thread-110] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:13 [Thread-110] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 294
+2026-06-23 00:58:13 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login task succeeded for user: admin
+2026-06-23 00:58:13 [Thread-111] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:13 [Thread-111] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:13 [Thread-111] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:58:17 [Thread-112] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:17 [Thread-112] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:17 [Thread-112] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:58:27 [Thread-117] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:27 [Thread-117] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:27 [Thread-117] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:58:29 [Thread-118] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:29 [Thread-118] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:29 [Thread-118] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1870
+2026-06-23 00:58:29 [Thread-119] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:29 [Thread-119] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:29 [Thread-119] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 768
+2026-06-23 00:58:32 [Thread-120] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:32 [Thread-120] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:32 [Thread-120] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22281
+2026-06-23 00:58:34 [Thread-121] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_USERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:34 [Thread-121] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:34 [Thread-121] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 768
+2026-06-23 00:58:34 [Thread-122] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_ORDERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:34 [Thread-122] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:34 [Thread-122] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1870
+2026-06-23 00:58:35 [Thread-123] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:35 [Thread-123] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:35 [Thread-123] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:58:36 [Thread-124] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:36 [Thread-124] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:36 [Thread-124] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:58:48 [Thread-129] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:58:48 [Thread-129] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:58:48 [Thread-129] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1111
+2026-06-23 00:59:15 [Thread-130] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=ADD_CUSTOMER, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:15 [Thread-130] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:15 [Thread-130] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 189
+2026-06-23 00:59:18 [Thread-131] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=UPDATE_CUSTOMER, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:18 [Thread-131] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:18 [Thread-131] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 191
+2026-06-23 00:59:19 [Thread-132] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_LOGS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:19 [Thread-132] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:19 [Thread-132] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22683
+2026-06-23 00:59:26 [Thread-133] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:26 [Thread-133] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:26 [Thread-133] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:59:27 [Thread-138] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_CUSTOMERS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:27 [Thread-138] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:27 [Thread-138] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 1324
+2026-06-23 00:59:28 [Thread-139] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_DASHBOARD_DATA, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:28 [Thread-139] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:28 [Thread-139] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 443
+2026-06-23 00:59:38 [Thread-140] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=GET_PRODUCTS, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:38 [Thread-140] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:38 [Thread-140] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 22978
+2026-06-23 00:59:43 [Thread-145] INFO  c.m.c.n.ServerCommunicator - → Sending request: action=LOGOUT, token=affffb6b-9d48-4d1f-8441-8eb001af678f
+2026-06-23 00:59:43 [Thread-145] INFO  c.m.c.n.ServerCommunicator - Waiting for response...
+2026-06-23 00:59:43 [Thread-145] INFO  c.m.c.n.ServerCommunicator - ← Received response line length: 52
+2026-06-23 00:59:55 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Disconnected from server
+2026-06-23 00:59:55 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Client application stopped
+2026-06-23 01:07:38 [JavaFX Application Thread] ERROR c.minimart.client.ClientMain - Cannot connect to server: Connection refused: connect
+2026-06-23 01:07:49 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 01:07:49 [Thread-3] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 01:07:49 [Thread-3] ERROR c.m.c.n.ServerCommunicator - sendRequest: Socket is not connected
+2026-06-23 01:07:49 [Thread-3] ERROR c.m.client.ui.LoginController - Exception in background login service call: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:07:49 [JavaFX Application Thread] WARN  c.m.client.ui.LoginController - Login task failed for user: admin. Error: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:05 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 01:08:05 [Thread-4] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 01:08:05 [Thread-4] ERROR c.m.c.n.ServerCommunicator - sendRequest: Socket is not connected
+2026-06-23 01:08:05 [Thread-4] ERROR c.m.client.ui.LoginController - Exception in background login service call: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:05 [JavaFX Application Thread] WARN  c.m.client.ui.LoginController - Login task failed for user: admin. Error: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:20 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 01:08:20 [Thread-5] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 01:08:20 [Thread-5] ERROR c.m.c.n.ServerCommunicator - sendRequest: Socket is not connected
+2026-06-23 01:08:20 [Thread-5] ERROR c.m.client.ui.LoginController - Exception in background login service call: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:20 [JavaFX Application Thread] WARN  c.m.client.ui.LoginController - Login task failed for user: admin. Error: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:36 [JavaFX Application Thread] ERROR c.minimart.client.ClientMain - Cannot connect to server: Connection refused: connect
+2026-06-23 01:08:46 [JavaFX Application Thread] INFO  c.m.client.ui.LoginController - Login button clicked for user: admin
+2026-06-23 01:08:46 [Thread-3] INFO  c.m.client.ui.LoginController - Background login task started for user: admin
+2026-06-23 01:08:46 [Thread-3] ERROR c.m.c.n.ServerCommunicator - sendRequest: Socket is not connected
+2026-06-23 01:08:46 [Thread-3] ERROR c.m.client.ui.LoginController - Exception in background login service call: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:46 [JavaFX Application Thread] WARN  c.m.client.ui.LoginController - Login task failed for user: admin. Error: Not connected to server. Please restart the application.
+java.io.IOException: Not connected to server. Please restart the application.
+	at com.minimart.client.network.ServerCommunicator.sendRequest(ServerCommunicator.java:107)
+	at com.minimart.client.service.ClientService.login(ClientService.java:79)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:108)
+	at com.minimart.client.ui.LoginController$1.call(LoginController.java:103)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 01:08:51 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Disconnected from server
+2026-06-23 01:08:51 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Client application stopped

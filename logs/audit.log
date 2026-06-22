@@ -1,0 +1,71 @@
+2026-06-23 00:00:07 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:50056 msg=Login successful
+2026-06-23 00:00:51 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP015
+2026-06-23 00:01:08 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP015
+2026-06-23 00:01:26 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP015
+2026-06-23 00:02:04 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP016
+2026-06-23 00:02:38 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP015
+2026-06-23 00:03:10 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP017
+2026-06-23 00:04:22 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP018
+2026-06-23 00:04:58 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP019
+2026-06-23 00:06:31 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP020
+2026-06-23 00:07:18 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP021
+2026-06-23 00:08:02 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP022
+2026-06-23 00:08:53 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP023
+2026-06-23 00:09:31 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP048
+2026-06-23 00:10:09 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP047
+2026-06-23 00:10:21 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP048
+2026-06-23 00:10:45 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:50056 msg=Updated customer id=5
+2026-06-23 00:11:54 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP046
+2026-06-23 00:12:27 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP045
+2026-06-23 00:12:59 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP044
+2026-06-23 00:13:37 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP043
+2026-06-23 00:14:18 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP042
+2026-06-23 00:14:56 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP041
+2026-06-23 00:15:44 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP040
+2026-06-23 00:16:32 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP039
+2026-06-23 00:17:10 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP038
+2026-06-23 00:18:47 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP037
+2026-06-23 00:20:52 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP036
+2026-06-23 00:21:54 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP035
+2026-06-23 00:22:22 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP034
+2026-06-23 00:23:05 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP033
+2026-06-23 00:26:43 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP032
+2026-06-23 00:27:39 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP031
+2026-06-23 00:29:04 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP030
+2026-06-23 00:29:09 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP029
+2026-06-23 00:29:54 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP029
+2026-06-23 00:30:23 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP028
+2026-06-23 00:30:54 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP027
+2026-06-23 00:31:20 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP026
+2026-06-23 00:31:46 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP025
+2026-06-23 00:32:23 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP024
+2026-06-23 00:32:35 | [INFO] action=LOGOUT user=admin ip=/127.0.0.1:50056 msg=Logout
+2026-06-23 00:32:44 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:50056 msg=Login successful
+2026-06-23 00:33:07 | [INFO] action=CREATE_ORDER user=nhanvien1 ip=/127.0.0.1:50056 msg=Order #7 created. Total: 56000.00 VND
+2026-06-23 00:33:30 | [INFO] action=CREATE_ORDER user=nhanvien1 ip=/127.0.0.1:50056 msg=Order #8 created. Total: 24000.00 VND
+2026-06-23 00:33:40 | [INFO] action=LOGOUT user=nhanvien1 ip=/127.0.0.1:50056 msg=Logout
+2026-06-23 00:33:49 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:50056 msg=Login successful
+2026-06-23 00:35:34 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:50056 msg=Updated product: SP015
+2026-06-23 00:37:42 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-23 00:37:52 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:59153 msg=Login successful
+2026-06-23 00:43:07 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-23 00:43:17 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:49366 msg=Login successful
+2026-06-23 00:43:38 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:49366 msg=Updated product: SP011
+2026-06-23 00:45:30 | [INFO] action=LOGOUT user=admin ip=/127.0.0.1:49366 msg=Logout
+2026-06-23 00:45:51 | [INFO] action=REGISTER user=memaybeo ip=/127.0.0.1:49366 msg=New user registered
+2026-06-23 00:45:53 | [INFO] action=LOGIN user=memaybeo ip=/127.0.0.1:49366 msg=Login successful
+2026-06-23 00:46:27 | [INFO] action=LOGOUT user=memaybeo ip=/127.0.0.1:49366 msg=Logout
+2026-06-23 00:46:35 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:49366 msg=Login successful
+2026-06-23 00:46:56 | [INFO] action=UPDATE_USER user=admin ip=/127.0.0.1:49366 msg=Updated user id=1
+2026-06-23 00:47:26 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Updated customer id=5
+2026-06-23 00:47:28 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Updated customer id=5
+2026-06-23 00:47:48 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Updated customer id=5
+2026-06-23 00:48:03 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Updated customer id=5
+2026-06-23 00:49:20 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Updated customer id=5
+2026-06-23 00:56:55 | [INFO] action=LOGOUT user=admin ip=/127.0.0.1:49366 msg=Logout
+2026-06-23 00:58:13 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:49366 msg=Login successful
+2026-06-23 00:59:15 | [INFO] action=ADD_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Added customer: Nguyễn Văn Đạt
+2026-06-23 00:59:18 | [INFO] action=UPDATE_CUSTOMER user=admin ip=/127.0.0.1:49366 msg=Updated customer id=6
+2026-06-23 00:59:43 | [INFO] action=LOGOUT user=admin ip=/127.0.0.1:49366 msg=Logout
+2026-06-23 01:07:35 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-23 01:08:29 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads

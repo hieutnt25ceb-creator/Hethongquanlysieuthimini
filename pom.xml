@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- =========================================================
+         Parent POM for Mini Mart Management System
+         ========================================================= -->
+    <groupId>com.minimart</groupId>
+    <artifactId>minimart-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Mini Mart Management System — Parent</name>
+    <description>Quản lý siêu thị mini — Java Desktop Client/Server Application</description>
+
+    <!-- ── Sub-modules ─────────────────────────────────────── -->
+    <modules>
+        <module>minimart-common</module>
+        <module>minimart-server</module>
+        <module>minimart-client</module>
+    </modules>
+
+    <!-- ── Common properties ──────────────────────────────── -->
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Dependency versions (centralized for consistency) -->
+        <gson.version>2.10.1</gson.version>
+        <jbcrypt.version>0.4</jbcrypt.version>
+        <hikaricp.version>5.1.0</hikaricp.version>
+        <mysql.connector.version>8.3.0</mysql.connector.version>
+        <slf4j.version>2.0.12</slf4j.version>
+        <logback.version>1.5.3</logback.version>
+        <javafx.version>21.0.2</javafx.version>
+        <junit.version>5.10.2</junit.version>
+    </properties>
+
+    <!-- ── Dependency Management (BOM-style) ─────────────── -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Internal modules -->
+            <dependency>
+                <groupId>com.minimart</groupId>
+                <artifactId>minimart-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- JSON serialization (DTO exchange over socket) -->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${gson.version}</version>
+            </dependency>
+
+            <!-- BCrypt password hashing -->
+            <dependency>
+                <groupId>org.mindrot</groupId>
+                <artifactId>jbcrypt</artifactId>
+                <version>${jbcrypt.version}</version>
+            </dependency>
+
+            <!-- HikariCP connection pool (server only) -->
+            <dependency>
+                <groupId>com.zaxxer</groupId>
+                <artifactId>HikariCP</artifactId>
+                <version>${hikaricp.version}</version>
+            </dependency>
+
+            <!-- MySQL JDBC driver (server only) -->
+            <dependency>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>${mysql.connector.version}</version>
+            </dependency>
+
+            <!-- SLF4J API -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+
+            <!-- Logback (SLF4J impl for server) -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+
+            <!-- JavaFX Controls -->
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-controls</artifactId>
+                <version>${javafx.version}</version>
+            </dependency>
+
+            <!-- JavaFX FXML -->
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-fxml</artifactId>
+                <version>${javafx.version}</version>
+            </dependency>
+
+            <!-- JavaFX Charts (BarChart for dashboard) -->
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-charts</artifactId>
+                <version>${javafx.version}</version>
+            </dependency>
+
+            <!-- JUnit 5 (testing) -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- ── Plugin Management ──────────────────────────────── -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.12.1</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-shade-plugin</artifactId>
+                    <version>3.5.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-maven-plugin</artifactId>
+                    <version>0.0.8</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>

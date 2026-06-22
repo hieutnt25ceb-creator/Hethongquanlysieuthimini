@@ -1,0 +1,63 @@
+2026-06-22 20:28:09 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 20:28:16 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 20:28:55 | [INFO] action=REGISTER user=testuser_1782134935092 ip=/127.0.0.1:57227 msg=New user registered
+2026-06-22 20:28:55 | [INFO] action=LOGIN user=testuser_1782134935092 ip=/127.0.0.1:57227 msg=Login successful
+2026-06-22 20:32:30 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 20:33:13 | [INFO] action=LOGIN user=Admin ip=/127.0.0.1:59738 msg=Login successful
+2026-06-22 20:33:29 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:59738 msg=Login successful
+2026-06-22 20:33:46 | [INFO] action=REGISTER user=khoaok ip=/127.0.0.1:59738 msg=New user registered
+2026-06-22 20:33:48 | [INFO] action=LOGIN user=khoaok ip=/127.0.0.1:59738 msg=Login successful
+2026-06-22 20:37:20 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:64565 msg=Login successful
+2026-06-22 20:37:29 | [ERROR] action=GET_CUSTOMERS user=SYSTEM ip=/127.0.0.1:64565 msg=Server error: AES decryption failed
+2026-06-22 20:38:46 | [ERROR] action=GET_CUSTOMERS user=SYSTEM ip=/127.0.0.1:64565 msg=Server error: AES decryption failed
+2026-06-22 20:39:43 | [INFO] action=LOGOUT user=admin ip=/127.0.0.1:64565 msg=Logout
+2026-06-22 20:40:05 | [INFO] action=REGISTER user=khoamb ip=/127.0.0.1:64565 msg=New user registered
+2026-06-22 20:40:07 | [INFO] action=LOGIN user=khoamb ip=/127.0.0.1:64565 msg=Login successful
+2026-06-22 20:40:07 | [ERROR] action=GET_CUSTOMERS user=SYSTEM ip=/127.0.0.1:64565 msg=Server error: AES decryption failed
+2026-06-22 20:40:38 | [INFO] action=CREATE_ORDER user=khoamb ip=/127.0.0.1:64565 msg=Order #6 created. Total: 31000.00 VND
+2026-06-22 20:40:40 | [ERROR] action=GET_CUSTOMERS user=SYSTEM ip=/127.0.0.1:64565 msg=Server error: AES decryption failed
+2026-06-22 20:43:15 | [INFO] action=LOGOUT user=khoamb ip=/127.0.0.1:64565 msg=Logout
+2026-06-22 21:04:05 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 21:07:09 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 21:07:33 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:64990 msg=Login successful
+2026-06-22 21:20:49 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:61993 msg=Login successful
+2026-06-22 21:21:18 | [INFO] action=LOGOUT user=admin ip=/127.0.0.1:61993 msg=Logout
+2026-06-22 21:21:39 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:61993 msg=Login successful
+2026-06-22 21:22:08 | [INFO] action=LOGOUT user=nhanvien1 ip=/127.0.0.1:61993 msg=Logout
+2026-06-22 21:30:51 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:63489 msg=Login successful
+2026-06-22 21:36:08 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:64600 msg=Login successful
+2026-06-22 21:45:43 | [INFO] action=LOGIN user=nhanvien1 ip=/127.0.0.1:55728 msg=Login successful
+2026-06-22 21:46:03 | [INFO] action=CREATE_ORDER user=nhanvien1 ip=/127.0.0.1:55728 msg=Order #6 created. Total: 12000.00 VND
+2026-06-22 21:46:07 | [INFO] action=LOGOUT user=nhanvien1 ip=/127.0.0.1:55728 msg=Logout
+2026-06-22 22:08:17 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 22:08:36 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:57162 msg=Login successful
+2026-06-22 22:11:43 | [INFO] action=EXPORT_PRODUCTS_XML user=admin ip=/127.0.0.1:57162 msg=Product XML exported
+2026-06-22 22:16:58 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP001
+2026-06-22 22:18:58 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP002
+2026-06-22 22:19:21 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP003
+2026-06-22 22:19:25 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP003
+2026-06-22 22:20:10 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP004
+2026-06-22 22:21:21 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP005
+2026-06-22 22:22:05 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP005
+2026-06-22 22:22:11 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP005
+2026-06-22 22:22:46 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP005
+2026-06-22 22:27:46 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP006
+2026-06-22 22:28:29 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP006
+2026-06-22 22:29:24 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:57162 msg=Updated product: SP007
+2026-06-22 22:42:32 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 22:42:37 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 22:42:48 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:52165 msg=Login successful
+2026-06-22 22:44:34 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:52165 msg=Updated product: SP008
+2026-06-22 22:44:43 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:52165 msg=Updated product: SP008
+2026-06-22 22:45:19 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:52165 msg=Updated product: SP009
+2026-06-22 22:45:57 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:52165 msg=Updated product: SP010
+2026-06-22 22:47:21 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:52165 msg=Updated product: SP011
+2026-06-22 22:55:26 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 22:55:41 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:55996 msg=Login successful
+2026-06-22 22:57:03 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:55996 msg=Updated product: SP012
+2026-06-22 22:57:46 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:55996 msg=Updated product: SP013
+2026-06-22 22:59:58 | [INFO] action=UPDATE_PRODUCT user=admin ip=/127.0.0.1:55996 msg=Updated product: SP014
+2026-06-22 23:01:24 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 23:01:29 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads
+2026-06-22 23:01:38 | [INFO] action=LOGIN user=admin ip=/127.0.0.1:59544 msg=Login successful
+2026-06-22 23:59:39 | [INFO] action=SERVER_START user=null ip=localhost msg=Server started on port 9999 with 50 threads

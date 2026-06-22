@@ -1,0 +1,4 @@
+2026-06-19 20:26:16 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Connected to server at localhost:9999
+2026-06-19 20:26:16 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Connected to Mini Mart Server
+2026-06-19 20:46:18 [JavaFX Application Thread] INFO  c.m.c.n.ServerCommunicator - Disconnected from server
+2026-06-19 20:46:18 [JavaFX Application Thread] INFO  c.minimart.client.ClientMain - Client application stopped
